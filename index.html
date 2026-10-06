@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dany Nail Room</title>
+  <link rel="icon" href="assets/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Fraunces:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- MENU TRÊN CÙNG -->
+  <header class="nav">
+    <a class="brand" href="#top"><img src="assets/logo.png" alt="Logo Dany"> Dany nailroom</a>
+    <nav>
+      <a href="#thong-tin">Thông tin</a>
+      <a href="#menu">Menu</a>
+      <a href="#gia">Bảng giá</a>
+      <a href="#mau">Các mẫu</a>
+      <a href="#dat-lich">Đặt lịch</a>
+    </nav>
+  </header>
+
+  <!-- BANNER -->
+  <section class="hero box" id="top">
+    <div>
+      <h1>Tiệm nails <span class="gradient">bà nội</span></h1>
+      <p>Mỗi bộ móng ở Dany đều có một moodboard riêng đi kèm.</p>
+      <a class="btn" href="#dat-lich">Đặt lịch ngay</a>
+      <p class="chip">Hôm nay còn <b id="heroSlots">--</b> slot</p>
+    </div>
+    <img src="assets/n37.jpg" alt="Nail hồng mắt mèo">
+  </section>
+
+  <!-- THÔNG TIN QUÁN -->
+  <section class="box" id="thong-tin">
+    <h2>Thông tin <span class="gradient">quán</span></h2>
+    <div class="grid">
+      <div class="card"><h3>Chi nhánh 1 (TP.HCM)</h3><p>2A Thạch Thị Thanh, P. Tân Định, Quận 1</p></div>
+      <div class="card"><h3>Chi nhánh 2 (Hà Nội)</h3><p>B1A Ngõ 8 Lý Nam Đế, Hoàn Kiếm. Khai trương 10/10/2026</p></div>
+      <div class="card"><h3>Giờ mở cửa</h3><p>09:00 – 21:00 <br><span id="openStatus"></span></p></div>
+      <div class="card"><h3>Liên hệ</h3><p>0767 111 047 · 0774 544 431<br>Instagram @dany.nailroom<br>TikTok @danynailroom</p></div>
+    </div>
+  </section>
+
+  <!-- MENU THEO MÙA -->
+  <section class="box" id="menu">
+    <h2>Menu <span class="gradient">Giáng Sinh</span></h2>
+    <p class="note">Áp dụng 09:00 – 15:00, từ thứ 2 đến thứ 5.</p>
+    <div class="grid">
+      <div class="card"><h3>Sạch da + sơn gel</h3><p class="price">99K</p></div>
+      <div class="card"><h3>Sạch da + mắt mèo</h3><p class="price">159K</p></div>
+      <div class="card"><h3>Úp móng + sơn gel</h3><p class="price">179K</p></div>
+    </div>
+  </section>
+
+  <!-- BẢNG GIÁ -->
+  <section class="box" id="gia">
+    <h2>Bảng <span class="gradient">giá</span></h2>
+    <p class="note">Đơn vị nghìn đồng. "/pcs" là giá mỗi móng hoặc mỗi chi tiết.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Manicure</h3>
+        <ul>
+          <li><span>Phá gel / Tháo móng</span> <b>30 – 50K</b></li>
+          <li><span>Cắt da tay / chân</span> <b>40 – 50K</b></li>
+          <li><span>Cứng móng</span> <b>60K</b></li>
+          <li><span>Úp móng keo / gel</span> <b>100 – 150K</b></li>
+          <li><span>Nối móng đắp gel</span> <b>270K</b></li>
+          <li><span>Fill gel</span> <b>80 – 150K</b></li>
+          <li><span>Phủ gel móng thật</span> <b>150K</b></li>
+          <li><span>BIAB</span> <b>150 – 200K</b></li>
+          <li><span>Dual Form</span> <b>260 – 300K</b></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Gel polish</h3>
+        <ul>
+          <li><span>Sơn gel / Thạch</span> <b>100 – 120K</b></li>
+          <li><span>Mắt mèo</span> <b>130 – 150K</b></li>
+          <li><span>Ombré</span> <b>100 – 150K</b></li>
+          <li><span>Tráng gương</span> <b>100K</b></li>
+          <li><span>Vẽ / Loang / Gel nổi</span> <b>5 – 100K/pcs</b></li>
+          <li><span>French</span> <b>5 – 15K/pcs</b></li>
+          <li><span>Sticker</span> <b>5 – 15K/pcs</b></li>
+          <li><span>Charm</span> <b>10 – 50K/pcs</b></li>
+          <li><span>Đính đá</span> <b>5 – 25K/pcs</b></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÁC MẪU NAIL (rê chuột vào ảnh để xem mô tả) -->
+  <section class="box" id="mau">
+    <h2>Hậu trường <span class="gradient">các mẫu</span></h2>
+    <p class="note">Mỗi mẫu bắt đầu từ vài tấm ảnh màu sắc và chất liệu. Rê chuột vào ảnh để xem mood.</p>
+    <div class="grid mau">
+      <figure><img src="assets/n27.jpg" alt=""><figcaption><h3>Sao hồng lấp lánh</h3>Jelly hồng, ánh ngọc trai, sao bạc rải đều.</figcaption></figure>
+      <figure><img src="assets/n28.jpg" alt=""><figcaption><h3>Bọt biển bạc hà</h3>Chrome mint xen một móng nhũ bạc như cát ướt.</figcaption></figure>
+      <figure><img src="assets/n29.jpg" alt=""><figcaption><h3>Winetasting</h3>Pantone 19-2118 TCX, ngọc tím phủ lên nền rượu chín.</figcaption></figure>
+      <figure><img src="assets/n30.jpg" alt=""><figcaption><h3>Nắng trên biển</h3>Ombré nude hồng, ánh vàng nhẹ ở đầu móng.</figcaption></figure>
+      <figure><img src="assets/n32.jpg" alt=""><figcaption><h3>Nàng tiên ngọc trai</h3>Trắng ngọc trai bóng như vỏ sò, một móng vụn xà cừ.</figcaption></figure>
+      <figure><img src="assets/n33.jpg" alt=""><figcaption><h3>Nhật thực chấm bi</h3>Mỗi móng một chất liệu: mắt mèo bạc, khói đen, chrome.</figcaption></figure>
+      <figure><img src="assets/n35.jpg" alt=""><figcaption><h3>Hoa ly nổi</h3>Đắp gel nổi thành hoa và lá, các móng còn lại vẽ loang nhẹ.</figcaption></figure>
+      <figure><img src="assets/n36.jpg" alt=""><figcaption><h3>Ceramic</h3>Xanh ngọc Pantone 16-5127 TCX, thánh giá nổi cùng tông.</figcaption></figure>
+      <figure><img src="assets/n25.jpg" alt=""><figcaption><h3>Olive obsession</h3>Mắt mèo xanh olive, ánh sáng chạy dọc giữa móng.</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ĐẶT LỊCH -->
+  <section class="box" id="dat-lich">
+    <h2>Đặt <span class="gradient">lịch</span></h2>
+    <div class="booking">
+
+      <!-- Bên trái: số slot hôm nay -->
+      <div class="card today">
+        <h3>Hôm nay còn</h3>
+        <div class="ring" id="ring">
+          <div class="ring-in"><b id="freeCount">--</b><span>slot trống</span></div>
+        </div>
+        <p class="today-note" id="freeNote"></p>
+        <div class="mini-bars" id="bars"></div>
+        <p class="note">Mỗi cột là một giờ, từ 09:00 đến 20:00. Số slot là dữ liệu mô phỏng, chưa nối với sổ lịch thật của tiệm.</p>
+      </div>
+
+      <!-- Bên phải: form đặt lịch -->
+      <form class="card" id="bookForm">
+        <h3>1. Chọn ngày</h3>
+        <div class="picks" id="dates"></div>
+
+        <h3>2. Chọn giờ</h3>
+        <div class="picks" id="times"></div>
+
+        <h3>3. Thông tin của bạn</h3>
+        <div class="row">
+          <label>Chi nhánh
+            <select id="branch">
+              <option value="cn1">CN1, Tân Định, Quận 1</option>
+              <option value="cn2">CN2, Hoàn Kiếm, Hà Nội (từ 10/10)</option>
+            </select>
+          </label>
+          <label>Dịch vụ
+            <select id="service">
+              <option>Sạch da + sơn gel (99K)</option>
+              <option>Sạch da + mắt mèo (159K)</option>
+              <option>Úp móng + sơn gel (179K)</option>
+              <option>Sơn gel / Thạch (100 – 120K)</option>
+              <option>Mắt mèo (130 – 150K)</option>
+              <option>Úp móng keo / gel (100 – 150K)</option>
+              <option>Chưa chắc, tư vấn tại quán</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <label>Họ tên <input id="name" placeholder="Nguyễn Thu Hà"></label>
+          <label>Số điện thoại <input id="phone" type="tel" placeholder="0901234567"></label>
+        </div>
+
+        <p id="message"></p>
+        <button class="btn" type="submit">Giữ chỗ</button>
+      </form>
+
+      <!-- Hiện ra sau khi giữ chỗ xong -->
+      <div class="card done" id="done" hidden>
+        <div class="tick">✓</div>
+        <h2>Đã giữ chỗ</h2>
+        <p id="doneText"></p>
+        <p class="note">Đây là bản demo nên lịch chưa gửi tới tiệm. Bạn gọi 0767 111 047 để chốt lịch thật.</p>
+        <button class="btn" type="button" id="againBtn">Đặt thêm lịch</button>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">Dany Studio · Hotline 0767 111 047 · 0774 544 431</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
